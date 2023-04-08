@@ -58,9 +58,9 @@ int main()
 {
 	char cmdline[MAXLINE]; // Command line
 	
-    Signal(SIGCHLD, sigchld_handler); // set handler for SIGCHLD	
+	Signal(SIGCHLD, sigchld_handler); // set handler for SIGCHLD	
 	Signal(SIGINT, sigint_handler); // set handler for SIGINT
-    Signal(SIGTSTP, sigtstp_handler); // set handler for SIGTSTP
+	Signal(SIGTSTP, sigtstp_handler); // set handler for SIGTSTP
 	
 	// initialize job array
 	for(int i = 0 ; i < 20 ; i++){
