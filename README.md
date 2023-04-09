@@ -47,6 +47,6 @@ phase3 : job control(백 그라운드, 포 그라운드)
 
 ### 📍 proj5 Concurrent(병행) 주식 서버, 클라이언트
 
-phase1 : Event-driven Approach using select
+project_1 : Event-driven Approach using select
 
-phase2 : Thread-based Approach using pthread
+project_2 : Thread-based Approach using pthread
